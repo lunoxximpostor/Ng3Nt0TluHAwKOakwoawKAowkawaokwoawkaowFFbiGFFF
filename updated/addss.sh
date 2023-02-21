@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/liz_mine
+# My Telegram : https://t.me/lunoxximpostor
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -14,13 +14,13 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/AkbarStoreVPN/perizinan/main/ipvps.txt | grep $MYIP )
+IZIN=$( curl 47.254.121.146:8081/permission.txt | grep $MYIP )
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
-echo -e "${NC}${RED}Permission Denied!${NC}";
+echo -e "${NC}${RED}Script Abis Cok !!!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/liz_mine"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/lunoxximpostor"
 exit 0
 fi
 clear
@@ -298,4 +298,4 @@ echo -e "Link TLS    : http://${domain}:89/ss-ws-$user.txt"
 echo -e "========================="
 echo -e "Link GRPC : http://${domain}:89/ss-grpc-$user.txt"
 echo -e "========================="
-echo -e "Script Mod By LIZSVR"
+echo -e "Script Mod By Lunoxx Impostor"
