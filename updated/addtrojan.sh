@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/liz_mine
+# My Telegram : https://t.me/lunoxximpostor
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$(curl https://raw.githubusercontent.com/lizsvr/project/main/ipvps.txt | grep $MYIP | awk '{print $3}')
+IZIN=$(curl -sS 47.254.121.146:8081/permission.txt | grep $MYIP | awk '{print $3}')
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
@@ -70,4 +70,4 @@ echo -e "Link Trojan WS  : ${trojanlinkws}"
 echo -e "=========================="
 echo -e "Link Trojan GRPC : ${trojanlinkgrpc}"
 echo -e "=========================="
-echo -e "Script Mod By LIZ"
+echo -e "Script Mod By Lunoxx Impostor"
