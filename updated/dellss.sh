@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/Akbar218
+# My Telegram : https://t.me/lunoxximpostor
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -14,15 +14,13 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/AkbarStoreVPN/perizinan/main/ipvps.txt | grep $MYIP )
+IZIN=$( curl -sS 47.254.121.146:8081/permission.txt | grep $MYIP )
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
-echo -e "${NC}${RED}Permission Denied!${NC}";
+echo -e "${NC}${RED}Script Abis Cok !!!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Facebook : https://m.facebook.com/lis.tio.718"
-echo -e "${NC}${LIGHT}WhatsApp : 081545854516"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/Akbar218"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/lunoxximpostor"
 exit 0
 fi
 clear
@@ -66,4 +64,4 @@ echo "==========================="
 echo "Username  : $user"
 echo "Expired   : $exp"
 echo "==========================="
-echo "Script Mod By LIZ"
+echo "Script Mod By Lunoxx Impostor"
