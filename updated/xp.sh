@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$( curl 47.254.121.146:8081/permission.txt | grep $MYIP )
+IZIN=$( curl -sS 47.254.121.146:8081/permission.txt | grep $MYIP )
 if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
