@@ -43,9 +43,9 @@ clear
 # echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"$NC
 # echo -e "$BRED           SELAMAT DATANG            $NC"
 # echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"$NC
-# figlet LIZSVR | lolcat
+# figlet LUNOXX | lolcat
 # #echo -e "$NC"
-# echo -e "Telegram : @liz_mine"
+# echo -e "Telegram : @lunoxximpostor"
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
 echo -e "$BRED          Informasi System           $NC"
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
@@ -130,5 +130,5 @@ fi
 # echo -e " Fail2ban                :$RED [Error] $NC"
 # fi
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
-echo -e "$BRED----------- Mod By LIZSVR -----------"
+echo -e "$BRED----------- Mod By LUNOXX -----------"
 echo -e "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
