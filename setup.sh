@@ -69,7 +69,7 @@ else
 	echo "" | tee -a log-install.txt
 	echo "----------------------------------------------------------------------------" | tee -a log-install.txt
 	echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"  | tee -a log-install.txt
-	echo -e "    SCRIPT MANTAP-XRAY Multi Port"  | tee -a log-install.txt
+	echo -e "    Cracked by Lunoxx Impostor"  | tee -a log-install.txt
 	echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"  | tee -a log-install.txt
 	echo ""  | tee -a log-install.txt
 	echo "   >>> Service & Port"  | tee -a log-install.txt
